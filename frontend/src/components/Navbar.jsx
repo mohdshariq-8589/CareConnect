@@ -26,20 +26,39 @@ const Navbar = () => {
       />
       <ul className="md:flex items-start gap-5 font-medium hidden">
         <NavLink to="/">
-          <li className="py-1">HOME</li>
-          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
+          <li className="relative group cursor-pointer py-1 text-center transition-all duration-300">
+            <span className="inline-block transition-all duration-300 group-hover:translate-y-[2px] group-hover:scale-[1.05]">
+              HOME
+            </span>
+            <span className="absolute left-1/2 bottom-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-3/5 group-hover:left-[20%]"></span>
+          </li>
         </NavLink>
+
         <NavLink to="/doctors">
-          <li className="py-1">ALL DOCTORS</li>
-          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
+          <li className="relative group cursor-pointer py-1 text-center transition-all duration-300">
+            <span className="inline-block transition-all duration-300 group-hover:translate-y-[2px] group-hover:scale-[1.05]">
+              ALL DOCTORS
+            </span>
+            <span className="absolute left-1/2 bottom-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-3/5 group-hover:left-[20%]"></span>
+          </li>
         </NavLink>
+
         <NavLink to="/about">
-          <li className="py-1">ABOUT</li>
-          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
+          <li className="relative group cursor-pointer py-1 text-center transition-all duration-300">
+            <span className="inline-block transition-all duration-300 group-hover:translate-y-[2px] group-hover:scale-[1.05]">
+              ABOUT
+            </span>
+            <span className="absolute left-1/2 bottom-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-3/5 group-hover:left-[20%]"></span>
+          </li>
         </NavLink>
+
         <NavLink to="/contact">
-          <li className="py-1">CONTACT</li>
-          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
+          <li className="relative group cursor-pointer py-1 text-center transition-all duration-300">
+            <span className="inline-block transition-all duration-300 group-hover:translate-y-[2px] group-hover:scale-[1.05]">
+              CONTACT
+            </span>
+            <span className="absolute left-1/2 bottom-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-3/5 group-hover:left-[20%]"></span>
+          </li>
         </NavLink>
       </ul>
 

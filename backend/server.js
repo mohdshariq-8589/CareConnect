@@ -9,7 +9,7 @@ import adminRouter from "./routes/adminRoute.js";
 
 // app config
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 connectDB();
 connectCloudinary();
 
@@ -26,4 +26,4 @@ app.get("/", (req, res) => {
   res.send("API Working");
 });
 
-app.listen(port, () => console.log(`Server started on PORT:${port}`));
+app.listen(port, () => console.log(`Server is running on port:${port}`));

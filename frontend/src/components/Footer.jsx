@@ -30,14 +30,11 @@ const Footer = () => {
             <li>Privacy policy</li>
           </ul>
         </div>
-
         <div>
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-2 text-gray-600">
-            <li>+91 9453218589</li>
-            <li>+91 9451408951</li>
-            <li>+91 9453218589</li>
             <li>mohdshariq8589@gmail.com</li>
+            <li>+91 9453218589</li>
           </ul>
         </div>
       </div>
@@ -45,7 +42,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2025 @ CareConnect.com - All Right Reserved.
+          © 2025 CareConnect. All rights reserved.
         </p>
       </div>
     </div>
